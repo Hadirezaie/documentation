@@ -4,7 +4,7 @@
 
 **Recursion** means:
 - A function calls itself (self-referential).
-- A large problem is broken down into smaller problems, and this continues until a **base case** is reached.
+- We break a large problem into smaller problems and continue this process until we reach a stopping condition (Base Case).
 
 ## 📌 General Structure of a Recursive Function
 
