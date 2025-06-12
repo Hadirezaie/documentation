@@ -91,7 +91,7 @@ This list ranks software architecture patterns from **most widely used** in real
 
 ---
 
-##12. Broker Architecture
+## 12. Broker Architecture
 
 - Components interact through a central broker
 - Useful in distributed systems (e.g., CORBA, RPC systems)
