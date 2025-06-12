@@ -1,10 +1,10 @@
-# 📚 Software Architecture Patterns (Ranked by Popularity)
+#  Software Architecture Patterns (Ranked by Popularity)
 
 This list ranks software architecture patterns from **most widely used** in real-world applications to **more specialized or niche** patterns.
 
 ---
 
-## 🥇 1. Layered Architecture
+## 1. Layered Architecture
 
 - Also known as **n-tier architecture**
 - Separates concerns into layers (e.g., Presentation → Business Logic → Data Access)
@@ -12,7 +12,7 @@ This list ranks software architecture patterns from **most widely used** in real
 
 ---
 
-## 🥈 2. Microservices Architecture
+## 2. Microservices Architecture
 
 - System is split into small, independent services
 - Highly scalable and deployable
@@ -20,7 +20,7 @@ This list ranks software architecture patterns from **most widely used** in real
 
 ---
 
-## 🥉 3. Event-Driven Architecture (EDA)
+## 3. Event-Driven Architecture (EDA)
 
 - Based on producers and consumers of events
 - Ideal for real-time systems (IoT, finance, gaming)
@@ -28,7 +28,7 @@ This list ranks software architecture patterns from **most widely used** in real
 
 ---
 
-## 🟠 4. RESTful Architecture (Architectural Style)
+## 4. RESTful Architecture (Architectural Style)
 
 - Not a strict pattern, but a **style**
 - Uses HTTP verbs (GET, POST, etc.) and URIs for resource access
@@ -36,7 +36,7 @@ This list ranks software architecture patterns from **most widely used** in real
 
 ---
 
-## 🟡 5. Client-Server Architecture
+## 5. Client-Server Architecture
 
 - Clients send requests, servers respond
 - Fundamental model for web and mobile applications
@@ -44,7 +44,7 @@ This list ranks software architecture patterns from **most widely used** in real
 
 ---
 
-## 🟢 6. Service-Oriented Architecture (SOA)
+## 6. Service-Oriented Architecture (SOA)
 
 - Precursors to microservices
 - Services communicate via protocols (often SOAP)
@@ -52,7 +52,7 @@ This list ranks software architecture patterns from **most widely used** in real
 
 ---
 
-## 🔵 7. Message-Driven Architecture
+## 7. Message-Driven Architecture
 
 - Systems interact by exchanging messages
 - Great for decoupling and asynchronous communication
@@ -60,7 +60,7 @@ This list ranks software architecture patterns from **most widely used** in real
 
 ---
 
-## 🔷 8. Hexagonal Architecture (Ports and Adapters)
+## 8. Hexagonal Architecture (Ports and Adapters)
 
 - Promotes separation between core logic and external systems
 - Highly testable and maintainable
@@ -68,7 +68,7 @@ This list ranks software architecture patterns from **most widely used** in real
 
 ---
 
-## ⚪ 9. CQRS (Command Query Responsibility Segregation)
+## 9. CQRS (Command Query Responsibility Segregation)
 
 - Separates read and write operations
 - Often combined with Event Sourcing
@@ -76,7 +76,7 @@ This list ranks software architecture patterns from **most widely used** in real
 
 ---
 
-## ⚫ 10. Monolithic Architecture
+## 10. Monolithic Architecture
 
 - Entire application is deployed as a single unit
 - Easier to build and deploy for small apps
@@ -84,35 +84,35 @@ This list ranks software architecture patterns from **most widely used** in real
 
 ---
 
-## 🟥 11. Pipe and Filter Architecture
+## 11. Pipe and Filter Architecture
 
 - Data passes through a series of processing elements (filters)
 - Used in compilers, media processing, data transformation
 
 ---
 
-## 🟫 12. Broker Architecture
+##12. Broker Architecture
 
 - Components interact through a central broker
 - Useful in distributed systems (e.g., CORBA, RPC systems)
 
 ---
 
-## 🟪 13. Peer-to-Peer (P2P) Architecture
+## 13. Peer-to-Peer (P2P) Architecture
 
 - No central server; nodes communicate directly
 - Common in decentralized systems (e.g., BitTorrent, Blockchain)
 
 ---
 
-## 🟨 14. Blackboard Architecture
+## 14. Blackboard Architecture
 
 - Multiple subsystems read/write to a common data store (the blackboard)
 - Used in AI systems, speech recognition, complex decision-making
 
 ---
 
-## 📌 Note
+## Note
 
 - Many real-world systems use **hybrid architectures**
 - For example, a microservices-based system might use **layered architecture** internally
